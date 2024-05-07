@@ -44,7 +44,7 @@ jobs:
           DSLIM_TARGET_COMPOSE_SVC: jekyll
           DSLIM_CONTINUE_AFTER: signal
         with:
-          target: amirpourmand/al-folio
+          target: enoriega87/al-folio
           tag: "slim"
 
       # Push to the registry
