@@ -48,4 +48,4 @@ jobs:
           tag: "slim"
 
       # Push to the registry
-      - run: docker image push amirpourmand/al-folio:slim
+      - run: docker image push enoriega87/al-folio:slim
