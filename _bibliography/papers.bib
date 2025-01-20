@@ -1,0 +1,287 @@
+@inproceedings{noriega-atala-etal-2024-happen,
+    title = "When and Where Did it Happen? An Encoder-Decoder Model to Identify Scenario Context",
+    author = "Noriega-Atala, Enrique  and
+      Vacareanu, Robert  and
+      Ashton, Salena Torres  and
+      Pyarelal, Adarsh  and
+      Morrison, Clayton T  and
+      Surdeanu, Mihai",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.219/",
+    doi = "10.18653/v1/2024.findings-emnlp.219",
+    pages = "3821--3829",
+    abstract = "We introduce a neural architecture finetuned for the task of scenario context generation: The relevant location and time of an event or entity mentioned in text. Contextualizing information extraction helps to scope the validity of automated finings when aggregating them as knowledge graphs. Our approach uses a high-quality curated dataset of time and location annotations in a corpus of epidemiology papers to train an encoder-decoder architecture. We also explored the use of data augmentation techniques during training. Our findings suggest that a relatively small fine-tuned encoder-decoder model performs better than out-of-the-box LLMs and semantic role labeling parsers to accurate predict the relevant scenario information of a particular entity or event."
+}
+
+@inproceedings{vacareanu-etal-2024-active,
+    title = "Active Learning Design Choices for {NER} with Transformers",
+    author = "Vacareanu, Robert  and
+      Noriega-Atala, Enrique  and
+      Hahn-Powell, Gus  and
+      Valenzuela-Escarcega, Marco A.  and
+      Surdeanu, Mihai",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.30/",
+    pages = "321--334",
+    abstract = "We explore multiple important choices that have not been analyzed in conjunction regarding active learning for token classification using transformer networks. These choices are: (i) how to select what to annotate, (ii) decide whether to annotate entire sentences or smaller sentence fragments, (iii) how to train with incomplete annotations at token-level, and (iv) how to select the initial seed dataset. We explore whether annotating at sub-sentence level can translate to an improved downstream performance by considering two different sub-sentence annotation strategies: (i) entity-level, and (ii) token-level. These approaches result in some sentences being only partially annotated. To address this issue, we introduce and evaluate multiple strategies to deal with partially-annotated sentences during the training process. We show that annotating at the sub-sentence level achieves comparable or better performance than sentence-level annotations with a smaller number of annotated tokens. We then explore the extent to which the performance gap remains once accounting for the annotation time and found that both annotation schemes perform similarly."
+}
+
+@proceedings{pandl-2023,
+    title = "Proceedings of the 2nd Workshop on Pattern-based Approaches to NLP in the Age of Deep Learning",
+    editor = "Surdeanu, Mihai  and
+      Riloff, Ellen  and
+      Chiticariu, Laura  and
+      Frietag, Dayne  and
+      Hahn-Powell, Gus  and
+      Morrison, Clayton T.  and
+      Noriega-Atala, Enrique  and
+      Sharp, Rebecca  and
+      Valenzuela-Escarcega, Marco",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.pandl-1.0/"
+}
+
+@inproceedings{liang-etal-2022-low,
+    title = "Low Resource Causal Event Detection from Biomedical Literature",
+    author = "Liang, Zhengzhong  and
+      Noriega-Atala, Enrique  and
+      Morrison, Clayton  and
+      Surdeanu, Mihai",
+    editor = "Demner-Fushman, Dina  and
+      Cohen, Kevin Bretonnel  and
+      Ananiadou, Sophia  and
+      Tsujii, Junichi",
+    booktitle = "Proceedings of the 21st Workshop on Biomedical Language Processing",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.bionlp-1.24/",
+    doi = "10.18653/v1/2022.bionlp-1.24",
+    pages = "252--263",
+    abstract = "Recognizing causal precedence relations among the chemical interactions in biomedical literature is crucial to understanding the underlying biological mechanisms. However, detecting such causal relation can be hard because: (1) many times, such causal relations among events are not explicitly expressed by certain phrases but implicitly implied by very diverse expressions in the text, and (2) annotating such causal relation detection datasets requires considerable expert knowledge and effort. In this paper, we propose a strategy to address both challenges by training neural models with in-domain pre-training and knowledge distillation. We show that, by using very limited amount of labeled data, and sufficient amount of unlabeled data, the neural models outperform previous baselines on the causal precedence detection task, and are ten times faster at inference compared to the BERT base model."
+}
+
+@inproceedings{vacareanu-etal-2022-human,
+    title = "A Human-machine Interface for Few-shot Rule Synthesis for Information Extraction",
+    author = "Vacareanu, Robert  and
+      Barbosa, George C.G.  and
+      Noriega-Atala, Enrique  and
+      Hahn-Powell, Gus  and
+      Sharp, Rebecca  and
+      Valenzuela-Esc{\'a}rcega, Marco A.  and
+      Surdeanu, Mihai",
+    editor = "Hajishirzi, Hannaneh  and
+      Ning, Qiang  and
+      Sil, Avi",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: System Demonstrations",
+    month = jul,
+    year = "2022",
+    address = "Hybrid: Seattle, Washington + Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-demo.8/",
+    doi = "10.18653/v1/2022.naacl-demo.8",
+    pages = "64--70",
+    abstract = "We propose a system that assists a user in constructing transparent information extraction models, consisting of patterns (or rules) written in a declarative language, through program synthesis. Users of our system can specify their requirements through the use of examples,which are collected with a search interface. The rule-synthesis system proposes rule candidates and the results of applying them on a textual corpus; the user has the option to accept the candidate, request another option, or adjust the examples provided to the system. Through an interactive evaluation, we show that our approach generates high-precision rules even in a 1-shot setting. On a second evaluation on a widely-used relation extraction dataset (TACRED), our method generates rules that outperform considerably manually written patterns. Our code, demo, and documentation is available at \url{https://clulab.github.io/odinsynth}."
+}
+
+@proceedings{pandl-2022-pattern,
+    title = "Proceedings of the First Workshop on Pattern-based Approaches to NLP in the Age of Deep Learning",
+    editor = "Chiticariu, Laura  and
+      Goldberg, Yoav  and
+      Hahn-Powell, Gus  and
+      Morrison, Clayton T.  and
+      Naik, Aakanksha  and
+      Sharp, Rebecca  and
+      Surdeanu, Mihai  and
+      Valenzuela-Esc{\'a}rcega, Marco  and
+      Noriega-Atala, Enrique",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Conference on Computational Linguistics",
+    url = "https://aclanthology.org/2022.pandl-1.0/"
+}
+
+@inproceedings{noriega-atala-etal-2022-neural,
+    title = "Neural-Guided Program Synthesis of Information Extraction Rules Using Self-Supervision",
+    author = "Noriega-Atala, Enrique  and
+      Vacareanu, Robert  and
+      Hahn-Powell, Gus  and
+      Valenzuela-Esc{\'a}rcega, Marco A.",
+    editor = "Chiticariu, Laura  and
+      Goldberg, Yoav  and
+      Hahn-Powell, Gus  and
+      Morrison, Clayton T.  and
+      Naik, Aakanksha  and
+      Sharp, Rebecca  and
+      Surdeanu, Mihai  and
+      Valenzuela-Esc{\'a}rcega, Marco  and
+      Noriega-Atala, Enrique",
+    booktitle = "Proceedings of the First Workshop on Pattern-based Approaches to NLP in the Age of Deep Learning",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Conference on Computational Linguistics",
+    url = "https://aclanthology.org/2022.pandl-1.10/",
+    pages = "85--93",
+    abstract = "We propose a neural-based approach for rule synthesis designed to help bridge the gap between the interpretability, precision and maintainability exhibited by rule-based information extraction systems with the scalability and convenience of statistical information extraction systems. This is achieved by avoiding placing the burden of learning another specialized language on domain experts and instead asking them to provide a small set of examples in the form of highlighted spans of text. We introduce a transformer-based architecture that drives a rule synthesis system that leverages a self-supervised approach for pre-training a large-scale language model complemented by an analysis of different loss functions and aggregation mechanisms for variable length sequences of user-annotated spans of text. The results are encouraging and point to different desirable properties, such as speed and quality, depending on the choice of loss and aggregation method."
+}
+
+@inproceedings{noriega-atala-etal-2019-understanding,
+    title = "Understanding the Polarity of Events in the Biomedical Literature: Deep Learning vs. Linguistically-informed Methods",
+    author = "Noriega-Atala, Enrique  and
+      Liang, Zhengzhong  and
+      Bachman, John  and
+      Morrison, Clayton  and
+      Surdeanu, Mihai",
+    editor = "Nastase, Vivi  and
+      Roth, Benjamin  and
+      Dietz, Laura  and
+      McCallum, Andrew",
+    booktitle = "Proceedings of the Workshop on Extracting Structured Knowledge from Scientific Publications",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W19-2603/",
+    doi = "10.18653/v1/W19-2603",
+    pages = "21--30",
+    abstract = "An important task in the machine reading of biochemical events expressed in biomedical texts is correctly reading the polarity, i.e., attributing whether the biochemical event is a promotion or an inhibition. Here we present a novel dataset for studying polarity attribution accuracy. We use this dataset to train and evaluate several deep learning models for polarity identification, and compare these to a linguistically-informed model. The best performing deep learning architecture achieves 0.968 average F1 performance in a five-fold cross-validation study, a considerable improvement over the linguistically informed model average F1 of 0.862."
+}
+
+@inproceedings{noriega-atala-etal-2017-learning,
+    title = "Learning what to read: Focused machine reading",
+    author = "Noriega-Atala, Enrique  and
+      Valenzuela-Esc{\'a}rcega, Marco A.  and
+      Morrison, Clayton  and
+      Surdeanu, Mihai",
+    editor = "Palmer, Martha  and
+      Hwa, Rebecca  and
+      Riedel, Sebastian",
+    booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    month = sep,
+    year = "2017",
+    address = "Copenhagen, Denmark",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D17-1313/",
+    doi = "10.18653/v1/D17-1313",
+    pages = "2905--2910",
+    abstract = "Recent efforts in bioinformatics have achieved tremendous progress in the machine reading of biomedical literature, and the assembly of the extracted biochemical interactions into large-scale models such as protein signaling pathways. However, batch machine reading of literature at today`s scale (PubMed alone indexes over 1 million papers per year) is unfeasible due to both cost and processing overhead. In this work, we introduce a focused reading approach to guide the machine reading of biomedical literature towards what literature should be read to answer a biomedical query as efficiently as possible. We introduce a family of algorithms for focused reading, including an intuitive, strong baseline, and a second approach which uses a reinforcement learning (RL) framework that learns when to explore (widen the search) or exploit (narrow it). We demonstrate that the RL approach is capable of answering more queries than the baseline, while being more efficient, i.e., reading fewer documents."
+}
+
+@INPROCEEDINGS{10148267,
+  author={Noriega-Atala, Enrique and Rahat-Uz-Zaman, Md. and Bhat, Ruchika and Jergovic, Mladen and Kobourov, Stephen G. and Nikolich-Zugich, Janko},
+  booktitle={2023 IEEE 16th Pacific Visualization Symposium (PacificVis)}, 
+  title={Visualizing Interaction Networks and Evidence in Biomedical Corpora}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={41-50},
+  keywords={Databases;Natural languages;Data visualization;Information retrieval;Data mining;Biological information theory;Research and development;Information systems—Search interfaces;Computing methodologies—Visualization—Information extraction},
+  doi={10.1109/PacificVis56936.2023.00012}}
+
+@INPROCEEDINGS{8637510,
+  author={Noriega-Atala, Enrique and Hein, Paul Douglas and Thumsi, Shraddha Satish and Wong, Zechy and Wang, Xia and Morrison, Clayton Thomas},
+  booktitle={2018 IEEE International Conference on Data Mining Workshops (ICDMW)}, 
+  title={Inter-Sentence Relation Extraction for Associating Biological Context with Events in Biomedical Texts}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={722-731},
+  keywords={Biology;Containers;Feature extraction;Data mining;Knowledge based systems;Linguistics;Task analysis;context, relation-extraction, NLP, data mining, bioinformatics},
+  doi={10.1109/ICDMW.2018.00110}}
+
+@inproceedings{noriega2022,
+  author    = {Noriega-Atala, Enrique and Lovett, Peter M. and Morrison, Clayton Thomas and Surdeanu, Mihai},
+  title     = {Neural Architectures for Biological Inter-Sentence Relation
+Extraction},
+  booktitle = {Proceedings of the Workshop on Scientific Document Understanding co-located with 36th AAAI Conference on Artificial Inteligence (AAAI 2022)},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {3164},
+  year      = {2022},
+  publisher = {CEUR-WS.org},
+  url       = {http://ceur-ws.org/Vol-3164/},
+}
+
+@inproceedings{noriega-atala-etal-2022-learning,
+    title = "Learning Open Domain Multi-hop Search Using Reinforcement Learning",
+    author = "Noriega-Atala, Enrique  and
+      Surdeanu, Mihai  and
+      Morrison, Clayton",
+    editor = "Chen, Wenhu  and
+      Chen, Xinyun  and
+      Chen, Zhiyu  and
+      Yao, Ziyu  and
+      Yasunaga, Michihiro  and
+      Yu, Tao  and
+      Zhang, Rui",
+    booktitle = "Proceedings of the Workshop on Structured and Unstructured Knowledge Integration (SUKI)",
+    month = jul,
+    year = "2022",
+    address = "Seattle, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.suki-1.4/",
+    doi = "10.18653/v1/2022.suki-1.4",
+    pages = "26--35",
+    abstract = "We propose a method to teach an automated agent to learn how to search for multi-hop paths of relations between entities in an open domain. The method learns a policy for directing existing information retrieval and machine reading resources to focus on relevant regions of a corpus. The approach formulates the learning problem as a Markov decision process with a state representation that encodes the dynamics of the search process and a reward structure that minimizes the number of documents that must be processed while still finding multi-hop paths. We implement the method in an actor-critic reinforcement learning algorithm and evaluate it on a dataset of search problems derived from a subset of English Wikipedia. The algorithm finds a family of policies that succeeds in extracting the desired information while processing fewer documents compared to several baseline heuristic algorithms."
+}
+
+@misc{liu2024variableextractionmodelrecovery,
+      title={Variable Extraction for Model Recovery in Scientific Literature}, 
+      author={Chunwei Liu and Enrique Noriega-Atala and Adarsh Pyarelal and Clayton T Morrison and Mike Cafarella},
+      year={2024},
+      eprint={2411.14569},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2411.14569}, 
+}
+
+@ARTICLE{8664185,
+  author={Noriega-Atala, Enrique and Hein, Paul D. and Thumsi, Shraddha S. and Wong, Zechy and Wang, Xia and Hendryx, Sean M. and Morrison, Clayton T.},
+  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics}, 
+  title={Extracting Inter-Sentence Relations for Associating Biological Context with Events in Biomedical Texts}, 
+  year={2020},
+  volume={17},
+  number={6},
+  pages={1895-1906},
+  keywords={Context awareness;Knowledge based systems;Data mining;Linguistics;Feature extraction;Biological information theory;Bioinformatics;Context;inter-sentence relation extraction;NLP;data mining;bioinformatics},
+  doi={10.1109/TCBB.2019.2904231}}
+
+@article{10.1093/database/bay098,
+    author = {Valenzuela-Escárcega, Marco A and Babur, Özgün and Hahn-Powell, Gus and Bell, Dane and Hicks, Thomas and Noriega-Atala, Enrique and Wang, Xia and Surdeanu, Mihai and Demir, Emek and Morrison, Clayton T},
+    title = {Large-scale automated machine reading discovers new cancer-driving mechanisms},
+    journal = {Database},
+    volume = {2018},
+    pages = {bay098},
+    year = {2018},
+    month = {09},
+    abstract = {PubMed, a repository and search engine for biomedical literature, now indexes \&gt;1 million articles each year. This exceeds the processing capacity of human domain experts, limiting our ability to truly understand many diseases. We present Reach, a system for automated, large-scale machine reading of biomedical papers that can extract mechanistic descriptions of biological processes with relatively high precision at high throughput. We demonstrate that combining the extracted pathway fragments with existing biological data analysis algorithms that rely on curated models helps identify and explain a large number of previously unidentified mutually exclusive altered signaling pathways in seven different cancer types. This work shows that combining human-curated ‘big mechanisms’ with extracted ‘big data’ can lead to a causal, predictive understanding of cellular processes and unlock important downstream applications.},
+    issn = {1758-0463},
+    doi = {10.1093/database/bay098},
+    url = {https://doi.org/10.1093/database/bay098},
+    eprint = {https://academic.oup.com/database/article-pdf/doi/10.1093/database/bay098/27329104/bay098.pdf},
+}
+
+
+
