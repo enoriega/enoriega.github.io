@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Enrique
 middle_name:
 last_name: Noriega
-contact_note: >
-  Find me on LinkedIn
+contact_note: first name _dot_ last name _at_ gmail _dot_ com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Enrique Noriega's professional website
 footer_text: >
