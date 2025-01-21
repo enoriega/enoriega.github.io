@@ -2,96 +2,163 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Enrique Noriega-Atala
     - name: Date of Birth
-      value: 14th March 1879
+      value: July 5th, 1987
     - name: Languages
-      value: English, German
+      value: English, Spanish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Information
+      institution: The University of Arizona, Tucson, Arizona
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Minored in Statistics
+    - title: M.Sc. in Computer Science
+      institution: The University of Arizona, Tucson, Arizona, US
+      year: 2014
+    - title: B.S. in Information and Communication Technology
+      institution: Tecnologico de Monterrey, Hermosillo, Sonore, Mexico
       description:
-        - Description 1.
-        - Description 2.
+        - Minored in Software Engineering
+      year: 2010
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Computational Sciences Researcher IV
+      institution: Department of Computer Science, The University of Arizona, Tucson, Arizona
+      year: 2022-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Co- developed and taught two workshops about AI and Machine Learning for The University of Arizona's DataLab
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Exploring the LLM Frontier
+            - AI Makerspace
+        - Co- lead the design and development of a university-wide private chatbot using open-source technologies. Responsible for RAG and LLM components, including dense passage retrieval indexing, prompt engineering, performance evaluation, LLM benchmarking, and API design.
+        - Co-Principal Investigator for Text Reading under DARPA’s ASKEM program. Led the development of a neuro-symbolic information extraction system for mathematical modeling from scientific literature. Coordinated a team of researchers to build a high-performance NLP system using Python and Scala. Project resulted in open-source software, one paper published at Findings of EMNLP 2024 and one manuscript under review.
+        - Developed an automated news aggregation dashboard for the AZHEALTHTXT project based on ReactJs-based application using PyTorch and HuggingFace transformers for filtering, classifying, summarizing, and translating news articles, aiding public health communication specialists.
+        - Designed and led the development of an LLM-powered chatbot for localized adverse weather and health-related resources under AZHEALTHTXT. Developed a functional RAG pipeline and user interface using Gradio, LangChain, and OpenAI API.
+    - title: Postdoctoral Research Associate
+      institution: Department of Computer Science, The University of Arizona
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Conducted biomedical NLP research under the Collaborative for Global Adaptive Pandemic Solutions initiative. Developed a visual analytics system for biomedical information extraction, published at the 16th IEEE Pacific Visualization Symposium.
+        - Co-authored five research publications and contributed to the REACH open-source project. Presented research at multiple conferences and collaborated on NSF and DARPA grant proposals and organized three research workshops and mentored graduate students in the Computer Science department.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Sr. NLP Scientist
+      institution: CondaMetrix LLC, Boston, MA
+      year: 2020
       description:
+        - Developed NLP algorithms for electronic health records, including anatomy phrase classifiers and laterality named-entity recognizers. Trained and fine-tuned LSTM, GRU, and BERT models. Developed APIs to integrate models into the company's software ecosystem.
+        - Mentored interns and contributed to internal training curricula on NLP and machine learning.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Graduate Research and Teaching Associate
+      institution: Department of Computer Science, The University of Arizona
+      year: 2013-2019
+      description:
+        - Contributed to NLP and Machine Learning projects in the CLU lab and ML4AI, focusing on Information Extraction, Information Retrieval, and Reinforcement Learning, leading to multiple publications. Regular contributor to the REACH biomedical information extraction project.
+        - Served as Teaching Assistant for courses including Introduction to Machine Learning and Text Retrieval. Designed and graded assignments, implemented innovative grading methods, and provided support through substitute teaching, office hours, and exam proctoring.
+        - title: "Courses:"
+          contents:
+            - Computer Organization (2013)
+            - Data Structures (2014)
+            - Information Retrieval and Web Search (2015, 2016)
+            - Introduction to Machine Learning (2017, 2019)
+    - title: Software Engineer
+      institution: Fresh Software Concepts, Hermosillo, Sonora, Mexico
+      year: 2010-2012
+      description:
+        - Worked on the development of an ERP system and multiple ancillary products for the produce industry based on the .NET stack.
+        - Lead the migration of multiple enterprise information systems into Microsoft’s Azure cloud from their previous on-premises location. Designed and coordinated the migration of software assets and data, as well as worked on software adaptations to make the systems work properly on their new cloud-based home.
+        - Participated on the design and architecture of multiple information systems based on the .NET stack.
+    - title: Sr. Software Engineer
+      institution: Fresh Software Concepts, Hermosillo, Sonora, Mexico
+      year: 2010-2012
+      description:
+        - Worked on the development of an ERP system and multiple ancillary products for the produce industry based on the .NET stack.
+        - Lead the migration of multiple enterprise information systems into Microsoft’s Azure cloud from their previous on-premises location. Designed and coordinated the migration of software assets and data, as well as worked on software adaptations to make the systems work properly on their new cloud-based home.
+        - Participated on the design and architecture of multiple information systems based on the .NET stack.
+    - title: Software Engineer
+      institution: Teknol, S.A. de C.V., Hermosillo, Sonora, Mexico
+      year: 2009-2010
+      description:
+        - Contributed to the development on GIS systems for multitouch hardware for the mining industry.
+        - Implemented multiple Web Services-based APIs for the company's products.
+    - title: Intern
+      institution: Internship at Centro de Investigación y Desarrollo de Ingeniería Avanzada, A.C., Hermosillo, Sonora, Mexico
+      year: 2008-2009
+      description:
+        - Participated in the development of a web-based cattle management information system based on Python and Django.
+    - title: Web Developer
+      institution: Optima Commerce, Hermosillo, Sonora, Mexico
+      year: 2007-2008
+      description:
+        - Contributed in the development of web-based international trade information system based on ASP.NET and C#.
+    - title: Jr. Software Engineer
+      institution: Marketing Movil S.A de C.V., Hermosillo, Sonora, Mexico
+      year: 2007
+      description:
+        - Contributed in the development of a Java-based service for sending and transmitting text messages (SMS) for a local marketing agency.
+
+- title: Grants and Funding
+  type: time_table
+  contents:
+    - title: "SKEMA: Scientific Knowledge Extraction and Model Analysis, DARPA."
+      year: 2022-2024
+      description: co-Principal Investigator responsible for the design and development of a neuro-symbolic information extraction system for mathematical modeling from scientific literature.
+    - title: Resilience Informatics for Public Health, Technology and Research Initiative Fund (TRIF), The University of Arizona.
+      year: 2023-2024
+      description: Key-personnel in charge of the design and development of a system for the automated aggregation, classification, summarization, and translation of news articles related to public health.
+
+- title: Patents
+  type: time_table
+  contents:
+    - title: <a href="https://patents.google.com/patent/US12019981B2/en">Method and system for converting literature into a directed graph</a>
+      year: 2024
+      description: US Patent No. 12019981, co-inventor.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/clulab/reach">REACH</a>
+      year: 2014-now
+      description: "Reach stands for Reading and Assembling Contextual and Holistic Mechanisms from Text. In plain English, Reach is an information extraction system for the biomedical domain, which aims to read scientific literature and extract cancer signaling pathways. Reach implements a fairly complete extraction pipeline, including: recognition of biochemical entities (proteins, chemicals, etc.), grounding them to known knowledge bases such as Uniprot, extraction of BioPAX-like interactions, e.g., phosphorylation, complex assembly, positive/negative regulations, and coreference resolution, for both entities and interactions."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - The University of Arizona Graduate & Professional Student’s Council Travel Grant
+        - UofA School of Information’s Travel Award
+        - International Conference in Data Mining's Student Award
+    - year: 2014
       items:
-        - Max Planck Medal
+        - Galileo Circle Scholar, UofA’s College of Science
+    - year: 2013-2014
+      items:
+        - Instituto Educativo Sonora-Arizona's scholarship
+    - year: 2012-2014
+      items:
+        - CONACyT's graduate studies scholarship
+    - year: 2010
+      items:
+        - CENEVAL’s outstanding performance testimony on the EGEL test
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
