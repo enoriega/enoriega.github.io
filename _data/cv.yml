@@ -1,24 +1,25 @@
 cv:
   name: "Enrique Noriega-Atala"
-  phone: "+15202415945"
   email: "enrique.noriega@gmail.com"
   website: "https://enoriega.info"
+  # Built-in section names are case-sensitive; custom sections use Markdown bullet entries.
   sections:
-    education:
+    Education:
       - institution: "The University of Arizona"
         area: "Information Science"
         degree: "PhD"
-        end_date: "2020"
-        summary: "Minor: Statistics"
+        date: "2020"
+        highlights:
+          - "Minor: Statistics"
       - institution: "The University of Arizona"
         area: "Computer Science"
         degree: "MS"
-        end_date: "2014"
+        date: "2014"
       - institution: "Monterrey Institute of Technology and Higher Education"
         area: "Information Technologies"
         degree: "BS"
-        end_date: "2010"
-    experience:
+        date: "2010"
+    Experience:
       - company: "Northeastern University"
         position: "Associate Research Scientist, Khoury College of Computer Sciences"
         start_date: "2026-02"
@@ -75,270 +76,155 @@ cv:
           - "Collaborated as a teaching assistant for graduate and undergraduate courses in Computer Science and the School of Information."
           - "Graded assignments, exams, and projects, held office hours, designed assignments, and directed laboratory sessions and guest lectures."
           - "Courses served: Computer Organization (2013), Data Structures (2014), Information Retrieval and Web Search (2015, 2016), Introduction to Machine Learning (2017, 2019)."
-    honors_and_awards:
-      - name: "UA Graduate & Professional Student's Council Travel Grant"
-        date: "2018"
-      - name: "UA School of Information's Travel Award"
-        date: "2018"
-      - name: "International Conference in Data Mining Student Award"
-        date: "2018"
-      - name: "Galileo Circle Scholar, UA's College of Science"
-        date: "2014"
-      - name: "Instituto Educativo Sonora-Arizona Scholarship"
-        start_date: "2013"
-        end_date: "2014"
-      - name: "CONACyT Graduate Studies Scholarship"
-        start_date: "2012"
-        end_date: "2014"
-      - name: "CENEVAL's Outstanding Performance Testimony on the EGEL Test"
-        date: "2010"
-    journal_publications:
-      - title: "Extracting Inter-sentence Relations for Associating Biological Context with Events in Biomedical Text"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Paul D. Hein"
-          - "Shraddha S. Thumsi"
-          - "Zechy Wong"
-          - "Xia Wang"
-          - "Sean M. Hendryx"
-          - "Clayton T. Morrison"
-        journal: "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
-        date: "2019"
-      - title: "Large-scale Automated Machine Reading Discovers New Cancer Driving Mechanisms"
-        authors:
-          - "Marco A. Valenzuela-Escárcega"
-          - "Özgün Babur"
-          - "Gus Hahn-Powell"
-          - "Dane Bell"
-          - "Thomas Hicks"
-          - "*Enrique Noriega-Atala*"
-          - "Xia Wang"
-          - "Mihai Surdeanu"
-          - "Emek Demir"
-          - "Clayton T. Morrison"
-        journal: "Database: The Journal of Biological Databases and Curation"
-        date: "2018"
-    conference_publications:
-      - title: "When and Where Did it Happen? An Encoder-Decoder Model to Identify Scenario Context"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Robert Vacareanu"
-          - "Salena Torres Ashton"
-          - "Adarsh Pyarelal"
-          - "Clayton T. Morrison"
-          - "Mihai Surdeanu"
-        journal: "Findings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
-        date: "2024"
-      - title: "Active learning design choices for NER with transformers"
-        authors:
-          - "Robert Vacareanu"
-          - "*Enrique Noriega-Atala*"
-          - "Gus Hahn-Powell"
-          - "Marco A. Valenzuela-Escárcega"
-          - "Mihai Surdeanu"
-        journal: "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING)"
-        date: "2024"
-      - title: "Visualizing Interaction Networks and Evidence in Biomedical Corpora"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Md Rahat-Uz-Zaman"
-          - "Ruchika Bhat"
-          - "Mladen Jergović"
-          - "Stephen G. Kobourov"
-          - "Janko Nikolich-Žugich"
-        journal: "Proceedings of the 16th IEEE Pacific Visualization Symposium (PacificVis)"
-        date: "2023"
-      - title: "A Human-machine Interface for Few-shot Rule Synthesis for Information Extraction"
-        authors:
-          - "Robert Vacareanu"
-          - "George C. Barbosa"
-          - "*Enrique Noriega-Atala*"
-          - "Gus Hahn-Powell"
-          - "Rebecca Sharp"
-          - "Marco A. Valenzuela-Escárcega"
-          - "Mihai Surdeanu"
-        journal: "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)"
-        date: "2022"
-      - title: "Learning what to read: Focused machine reading"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Marco A. Valenzuela-Escárcega"
-          - "Clayton T. Morrison"
-          - "Mihai Surdeanu"
-        journal: "Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)"
-        date: "2017"
-    workshop_publications:
-      - title: "Variable Extraction for Model Recovery in Scientific Literature"
-        authors:
-          - "Chunwei Liu"
-          - "*Enrique Noriega-Atala*"
-          - "Adarsh Pyarelal"
-          - "Clayton T. Morrison"
-          - "Mike Cafarella"
-        journal: "Proceedings of the 1st Workshop on AI and Scientific Discovery: Directions and Opportunities (ACL)"
-        date: "2025"
-      - title: "Neural-Guided Program Synthesis of Information Extraction Rules Using Self-Supervision"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Robert Vacareanu"
-          - "Gus Hahn-Powell"
-          - "Marco A. Valenzuela-Escárcega"
-        journal: "Proceedings of the Workshop on Pattern-based Approaches to NLP in the Age of Deep Learning at COLING"
-        date: "2022"
-      - title: "Learning Open Domain Multi-hop Search Using Reinforcement Learning"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Mihai Surdeanu"
-          - "Clayton T. Morrison"
-        journal: "Proceedings of the Workshop on Structured and Unstructured Knowledge Integration (ACL)"
-        date: "2022"
-      - title: "Low Resource Causal Event Detection from Biomedical Literature"
-        authors:
-          - "Zhengzhong Liang"
-          - "*Enrique Noriega-Atala*"
-          - "Clayton Morrison"
-          - "Mihai Surdeanu"
-        journal: "Proceedings of the 21st Workshop on Biomedical Language Processing at ACL"
-        date: "2022"
-      - title: "Neural Architectures for Biological Inter-Sentence Relation Extraction"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Peter M. Lovett"
-          - "Clayton T. Morrison"
-          - "Mihai Surdeanu"
-        journal: "Proceedings of Scientific Document Understanding at AAAI"
-        date: "2022"
-      - title: "Understanding the Polarity of Events in the Biomedical Literature: Deep Learning vs. Linguistically-informed Methods"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Zhengzhong Liang"
-          - "John A. Bachman"
-          - "Clayton T. Morrison"
-          - "Mihai Surdeanu"
-        journal: "Proceedings of the Workshop on Extracting Structured Knowledge from Scientific Publications at NAACL-HLT"
-        date: "2019"
-      - title: "Inter-sentence Relation Extraction for Associating Biological Context with Events in Biomedical Texts"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Paul D. Hein"
-          - "Shraddha S. Thumsi"
-          - "Zechy Wong"
-          - "Xia Wang"
-          - "Clayton T. Morrison"
-        journal: "Proceedings of the Sixth Workshop on Data Mining in Biomedical Informatics and Healthcare at ICDM"
-        date: "2018"
-      - title: "Focused Reading: Reinforcement Learning for What Documents to Read"
-        authors:
-          - "*Enrique Noriega-Atala*"
-          - "Marco A. Valenzuela-Escárcega"
-          - "Clayton T. Morrison"
-          - "Mihai Surdeanu"
-        journal: "Proceedings of the Interactive Machine Learning and Semantic Information Retrieval Workshop at ICML"
-        date: "2017"
-      - title: "Large-scale Automated Reading with Reach Discovers New Cancer Driving Mechanisms"
-        authors:
-          - "Marco A. Valenzuela-Escárcega"
-          - "Özgün Babur"
-          - "Gus Hahn-Powell"
-          - "Dane Bell"
-          - "Thomas Hicks"
-          - "*Enrique Noriega-Atala*"
-          - "Xia Wang"
-          - "Mihai Surdeanu"
-          - "Emek Demir"
-          - "Clayton T. Morrison"
-        journal: "Proceedings of the BioCreative VI Workshop (BioCreative6 2017)"
-        date: "2017"
-    conference_presentations:
-      - name: "When and Where Did it Happen? An Encoder-Decoder Model to Identify Scenario Context"
-        date: "2024"
-        location: "Miami, Florida"
-        summary: "Workshop on the Future of Event Detection at EMNLP 2024"
-      - name: "Visualizing Interaction Networks and Evidence in Biomedical Corpora"
-        date: "2023"
-        location: "Seoul, South Korea"
-        summary: "The 16th IEEE Pacific Visualization Symposium (PacificVis)"
-      - name: "Neural-Guided Program Synthesis of Information Extraction Rules Using Self-Supervision"
-        date: "2022"
-        location: "Gyeongju, Republic of Korea"
-        summary: "Workshop on Pattern-based Approaches to NLP in the Age of Deep Learning at COLING"
-      - name: "Open Domain Multi-hop Search Using Reinforcement Learning"
-        date: "2022"
-        location: "Seattle, Washington"
-        summary: "Workshop on Structured and Unstructured Knowledge Integration at NAACL-HLT"
-      - name: "Low Resource Causal Event Detection from Biomedical Literature"
-        date: "2022"
-        location: "Dublin, Ireland"
-        summary: "21st Workshop on Biomedical Language Processing at ACL"
-      - name: "Neural Architectures for Biological Inter-Sentence Relation Extraction"
-        date: "2022"
-        location: "Vancouver, Canada"
-        summary: "Scientific Document Understanding at AAAI"
-      - name: "Understanding the Polarity of Events in the Biomedical Literature: Deep Learning vs. Linguistically-informed Methods"
-        date: "2019"
-        location: "Minneapolis, Minnesota"
-        summary: "Workshop on Extracting Structured Knowledge from Scientific Publications at NAACL-HLT"
-      - name: "Inter-sentence Relation Extraction for Associating Biological Context with Events in Biomedical Text"
-        date: "2018"
-        location: "Singapore"
-        summary: "Sixth Workshop on Data Mining in Biomedical Informatics and Healthcare at ICDM"
-      - name: "Grounding Gradable Adjectives through Crowd-sourcing"
-        date: "2018"
-        location: "Miyazaki, Japan"
-        summary: "Language Resources and Evaluation Conference"
-      - name: "Learning what to read: Focused machine reading"
-        date: "2017"
-        location: "Copenhagen, Denmark"
-        summary: "NLP Applications track, EMNLP"
-    other_presentations:
-      - name: "AZX Chat Bot: An LLM-driven Application Implementation to Support Resilience Against Climate Change"
-        date: "2023-11"
-        location: "The University of Arizona"
-        summary: "Resilience Informatics Workshop"
-      - name: "Visualizing Interaction Networks and Evidence in Biomedical Corpora"
-        date: "2023-11"
-        location: "The University of Arizona"
-        summary: "Immune Monitoring Symposium"
-      - name: "Machine Learning and NLP for Medical Research and Public Health"
-        date: "2023-05"
-        location: "The University of Arizona"
-        summary: "PHIRE Side Chat"
-      - name: "Accelerating Research through Large Scale, Interpretable Machine Reading"
-        date: "2022-10"
-        location: "The University of Arizona"
-        summary: "MCB Joint Seminar"
-      - name: "Accelerating Research through Large Scale, Interpretable Machine Reading"
-        date: "2022-09"
-        location: "The University of Arizona"
-        summary: "Applied Data Science Speak & Greet Speaker Series"
-      - name: "What is Machine Learning?"
-        date: "2015"
-        location: "Hermosillo, Mexico"
-        summary: "Guest lecture for Knowledge-based Systems in Organizations, Systems and Industrial Engineering Program at Monterrey Institute of Technology and Higher Education"
-    service:
-      - name: "Organization Committee Member"
-        highlights:
-          - "The Second Workshop in Pattern-based Approaches to NLP in the Age of Deep Learning (Pan-DL), EMNLP (2023)"
-          - "Pattern-based Approaches to NLP in the Age of Deep Learning (Pan-DL), COLING (2022)"
-      - name: "Program Committee Member"
-        highlights:
-          - "The AAAI-22 Workshop on Scientific Document Understanding, AAAI (2022)"
-          - "SUKI: Structured and Unstructured Knowledge Integration, NAACL-HLT (2022)"
-          - "TextGraphs: Graph-based Algorithms for Natural Language Processing (14, 15, and 16)"
-      - name: "Student Volunteer"
-        date: "2019"
-        location: "Minneapolis, Minnesota"
-        summary: "NAACL-HLT"
-    grants:
-      - name: "SKEMA: Scientific Knowledge Extraction and Model Analysis"
-        start_date: "2022-07"
-        end_date: "2025-12"
-        summary: "Co-PI, DARPA (Award amount: $9,345,747)"
-      - name: "Resilience Informatics for Public Health"
-        start_date: "2023-07"
-        end_date: "2024-06"
-        summary: "Key Personnel, Technology and Research Initiative Fund (TRIF), The University of Arizona (Award amount: $95,000)"
-    patents:
-      - name: "Method for Extracting and Assessing Signaling Pathways from Biomedical Literature"
-        date: "2017-03"
-        summary: "Provisional US patent filed. Authors: Mihai Surdeanu, Marco A. Valenzuela-Escarcega, Gustave Hahn-Powell, Dane Bell, Thomas Hicks, Enrique Noriega, Clayton Morrison"
+    Honors and Awards:
+      - date: "2018"
+        title: "UA Graduate & Professional Student's Council Travel Grant"
+      - date: "2018"
+        title: "UA School of Information's Travel Award"
+      - date: "2018"
+        title: "International Conference in Data Mining Student Award"
+      - date: "2014"
+        title: "Galileo Circle Scholar, UA's College of Science"
+      - title: "Instituto Educativo Sonora-Arizona Scholarship"
+        date: "2013–2014"
+      - title: "CONACyT Graduate Studies Scholarship"
+        date: "2012–2014"
+      - date: "2010"
+        title: "CENEVAL's Outstanding Performance Testimony on the EGEL Test"
+    Journal Publications:
+      - bullet: >-
+          **Extracting Inter-sentence Relations for Associating Biological Context with Events in Biomedical Text**. *Enrique
+          Noriega-Atala*, Paul D. Hein, Shraddha S. Thumsi, Zechy Wong, Xia Wang, Sean M. Hendryx, Clayton T. Morrison. *IEEE/ACM
+          Transactions on Computational Biology and Bioinformatics*. (2019).
+      - bullet: >-
+          **Large-scale Automated Machine Reading Discovers New Cancer Driving Mechanisms**. Marco A. Valenzuela-Escárcega, Özgün
+          Babur, Gus Hahn-Powell, Dane Bell, Thomas Hicks, *Enrique Noriega-Atala*, Xia Wang, Mihai Surdeanu, Emek Demir, Clayton
+          T. Morrison. *Database: The Journal of Biological Databases and Curation*. (2018).
+    Conference Publications:
+      - bullet: >-
+          **When and Where Did it Happen? An Encoder-Decoder Model to Identify Scenario Context**. *Enrique Noriega-Atala*, Robert
+          Vacareanu, Salena Torres Ashton, Adarsh Pyarelal, Clayton T. Morrison, Mihai Surdeanu. *Findings of the 2024 Conference
+          on Empirical Methods in Natural Language Processing (EMNLP)*. (2024).
+      - bullet: >-
+          **Active learning design choices for NER with transformers**. Robert Vacareanu, *Enrique Noriega-Atala*, Gus
+          Hahn-Powell, Marco A. Valenzuela-Escárcega, Mihai Surdeanu. *Proceedings of the 2024 Joint International Conference on
+          Computational Linguistics, Language Resources and Evaluation (LREC-COLING)*. (2024).
+      - bullet: >-
+          **Visualizing Interaction Networks and Evidence in Biomedical Corpora**. *Enrique Noriega-Atala*, Md Rahat-Uz-Zaman,
+          Ruchika Bhat, Mladen Jergović, Stephen G. Kobourov, Janko Nikolich-Žugich. *Proceedings of the 16th IEEE Pacific
+          Visualization Symposium (PacificVis)*. (2023).
+      - bullet: >-
+          **A Human-machine Interface for Few-shot Rule Synthesis for Information Extraction**. Robert Vacareanu, George C.
+          Barbosa, *Enrique Noriega-Atala*, Gus Hahn-Powell, Rebecca Sharp, Marco A. Valenzuela-Escárcega, Mihai Surdeanu.
+          *Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics:
+          Human Language Technologies (NAACL-HLT)*. (2022).
+      - bullet: >-
+          **Learning what to read: Focused machine reading**. *Enrique Noriega-Atala*, Marco A. Valenzuela-Escárcega, Clayton T.
+          Morrison, Mihai Surdeanu. *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*.
+          (2017).
+    Workshop Publications:
+      - bullet: >-
+          **Variable Extraction for Model Recovery in Scientific Literature**. Chunwei Liu, *Enrique Noriega-Atala*, Adarsh
+          Pyarelal, Clayton T. Morrison, Mike Cafarella. *Proceedings of the 1st Workshop on AI and Scientific Discovery:
+          Directions and Opportunities (ACL)*. (2025).
+      - bullet: >-
+          **Neural-Guided Program Synthesis of Information Extraction Rules Using Self-Supervision**. *Enrique Noriega-Atala*,
+          Robert Vacareanu, Gus Hahn-Powell, Marco A. Valenzuela-Escárcega. *Proceedings of the Workshop on Pattern-based
+          Approaches to NLP in the Age of Deep Learning at COLING*. (2022).
+      - bullet: >-
+          **Learning Open Domain Multi-hop Search Using Reinforcement Learning**. *Enrique Noriega-Atala*, Mihai Surdeanu, Clayton
+          T. Morrison. *Proceedings of the Workshop on Structured and Unstructured Knowledge Integration (ACL)*. (2022).
+      - bullet: >-
+          **Low Resource Causal Event Detection from Biomedical Literature**. Zhengzhong Liang, *Enrique Noriega-Atala*, Clayton
+          Morrison, Mihai Surdeanu. *Proceedings of the 21st Workshop on Biomedical Language Processing at ACL*. (2022).
+      - bullet: >-
+          **Neural Architectures for Biological Inter-Sentence Relation Extraction**. *Enrique Noriega-Atala*, Peter M. Lovett,
+          Clayton T. Morrison, Mihai Surdeanu. *Proceedings of Scientific Document Understanding at AAAI*. (2022).
+      - bullet: >-
+          **Understanding the Polarity of Events in the Biomedical Literature: Deep Learning vs. Linguistically-informed
+          Methods**. *Enrique Noriega-Atala*, Zhengzhong Liang, John A. Bachman, Clayton T. Morrison, Mihai Surdeanu. *Proceedings
+          of the Workshop on Extracting Structured Knowledge from Scientific Publications at NAACL-HLT*. (2019).
+      - bullet: >-
+          **Inter-sentence Relation Extraction for Associating Biological Context with Events in Biomedical Texts**. *Enrique
+          Noriega-Atala*, Paul D. Hein, Shraddha S. Thumsi, Zechy Wong, Xia Wang, Clayton T. Morrison. *Proceedings of the Sixth
+          Workshop on Data Mining in Biomedical Informatics and Healthcare at ICDM*. (2018).
+      - bullet: >-
+          **Focused Reading: Reinforcement Learning for What Documents to Read**. *Enrique Noriega-Atala*, Marco A.
+          Valenzuela-Escárcega, Clayton T. Morrison, Mihai Surdeanu. *Proceedings of the Interactive Machine Learning and Semantic
+          Information Retrieval Workshop at ICML*. (2017).
+      - bullet: >-
+          **Large-scale Automated Reading with Reach Discovers New Cancer Driving Mechanisms**. Marco A. Valenzuela-Escárcega,
+          Özgün Babur, Gus Hahn-Powell, Dane Bell, Thomas Hicks, *Enrique Noriega-Atala*, Xia Wang, Mihai Surdeanu, Emek Demir,
+          Clayton T. Morrison. *Proceedings of the BioCreative VI Workshop (BioCreative6 2017)*. (2017).
+    Conference Presentations:
+      - bullet: >-
+          **When and Where Did it Happen? An Encoder-Decoder Model to Identify Scenario Context**. (2024). Miami, Florida.
+          Workshop on the Future of Event Detection at EMNLP 2024
+      - bullet: >-
+          **Visualizing Interaction Networks and Evidence in Biomedical Corpora**. (2023). Seoul, South Korea. The 16th IEEE
+          Pacific Visualization Symposium (PacificVis)
+      - bullet: >-
+          **Neural-Guided Program Synthesis of Information Extraction Rules Using Self-Supervision**. (2022). Gyeongju, Republic
+          of Korea. Workshop on Pattern-based Approaches to NLP in the Age of Deep Learning at COLING
+      - bullet: >-
+          **Open Domain Multi-hop Search Using Reinforcement Learning**. (2022). Seattle, Washington. Workshop on Structured and
+          Unstructured Knowledge Integration at NAACL-HLT
+      - bullet: >-
+          **Low Resource Causal Event Detection from Biomedical Literature**. (2022). Dublin, Ireland. 21st Workshop on Biomedical
+          Language Processing at ACL
+      - bullet: >-
+          **Neural Architectures for Biological Inter-Sentence Relation Extraction**. (2022). Vancouver, Canada. Scientific
+          Document Understanding at AAAI
+      - bullet: >-
+          **Understanding the Polarity of Events in the Biomedical Literature: Deep Learning vs. Linguistically-informed
+          Methods**. (2019). Minneapolis, Minnesota. Workshop on Extracting Structured Knowledge from Scientific Publications at
+          NAACL-HLT
+      - bullet: >-
+          **Inter-sentence Relation Extraction for Associating Biological Context with Events in Biomedical Text**. (2018).
+          Singapore. Sixth Workshop on Data Mining in Biomedical Informatics and Healthcare at ICDM
+      - bullet: >-
+          **Grounding Gradable Adjectives through Crowd-sourcing**. (2018). Miyazaki, Japan. Language Resources and Evaluation
+          Conference
+      - bullet: >-
+          **Learning what to read: Focused machine reading**. (2017). Copenhagen, Denmark. NLP Applications track, EMNLP
+    Other Presentations:
+      - bullet: >-
+          **AZX Chat Bot: An LLM-driven Application Implementation to Support Resilience Against Climate Change**. (2023-11). The
+          University of Arizona. Resilience Informatics Workshop
+      - bullet: >-
+          **Visualizing Interaction Networks and Evidence in Biomedical Corpora**. (2023-11). The University of Arizona. Immune
+          Monitoring Symposium
+      - bullet: >-
+          **Machine Learning and NLP for Medical Research and Public Health**. (2023-05). The University of Arizona. PHIRE Side
+          Chat
+      - bullet: >-
+          **Accelerating Research through Large Scale, Interpretable Machine Reading**. (2022-10). The University of Arizona. MCB
+          Joint Seminar
+      - bullet: >-
+          **Accelerating Research through Large Scale, Interpretable Machine Reading**. (2022-09). The University of Arizona.
+          Applied Data Science Speak & Greet Speaker Series
+      - bullet: >-
+          **What is Machine Learning?** (2015). Hermosillo, Mexico. Guest lecture for Knowledge-based Systems in Organizations,
+          Systems and Industrial Engineering Program at Monterrey Institute of Technology and Higher Education
+    Service:
+      - bullet: >-
+          **Organization Committee Member**. The Second Workshop in Pattern-based Approaches to NLP in the Age of Deep Learning
+          (Pan-DL), EMNLP (2023); Pattern-based Approaches to NLP in the Age of Deep Learning (Pan-DL), COLING (2022).
+      - bullet: >-
+          **Program Committee Member**. The AAAI-22 Workshop on Scientific Document Understanding, AAAI (2022); SUKI: Structured
+          and Unstructured Knowledge Integration, NAACL-HLT (2022); TextGraphs: Graph-based Algorithms for Natural Language
+          Processing (14, 15, and 16).
+      - bullet: >-
+          **Student Volunteer**. (2019). Minneapolis, Minnesota. NAACL-HLT
+    Grants:
+      - bullet: >-
+          **SKEMA: Scientific Knowledge Extraction and Model Analysis**. (2022-07 – 2025-12). Co-PI, DARPA (Award amount:
+          $9,345,747)
+      - bullet: >-
+          **Resilience Informatics for Public Health**. (2023-07 – 2024-06). Key Personnel, Technology and Research Initiative
+          Fund (TRIF), The University of Arizona (Award amount: $95,000)
+    Patents:
+      - bullet: >-
+          **Method for Extracting and Assessing Signaling Pathways from Biomedical Literature**. (2017-03). Provisional US patent
+          filed. Authors: Mihai Surdeanu, Marco A. Valenzuela-Escarcega, Gustave Hahn-Powell, Dane Bell, Thomas Hicks, Enrique
+          Noriega, Clayton Morrison
