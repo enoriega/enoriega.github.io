@@ -1,164 +1,344 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Enrique Noriega-Atala
-    # - name: Date of Birth
-    #   value: July 5th, 1987
-    - name: Languages
-      value: English, Spanish
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Information
-      institution: The University of Arizona, Tucson, Arizona
-      year: 2020
-      description:
-        - Minored in Statistics
-    - title: M.Sc. in Computer Science
-      institution: The University of Arizona, Tucson, Arizona, US
-      year: 2014
-    - title: B.S. in Information and Communication Technology
-      institution: Tecnologico de Monterrey, Hermosillo, Sonora, Mexico
-      description:
-        - Minored in Software Engineering
-      year: 2010
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Associate Research Scientist
-      institution: Khoury College of Computer Sciences, Northeastern University, Boston, Massachusetts
-      year: 2026-now
-      description:
-        - Developed specialized information extraction systems based on encoder models to detect, extract and ground genes, gene products and mutations from scientific text.
-        - Contributed to a cause-of-death information system to use local language models to detect diseases and associate them to ICD-10 WHO code
-        - Worked on an LLM-driven agent to ground text excertps, such as intent descriptions, into an arbitrary heriarchical ontologies
-    - title: Computational Sciences Researcher IV
-      institution: Department of Computer Science, The University of Arizona, Tucson, Arizona
-      year: 2022-2026
-      description:
-        - title: Co- developed and taught two workshops about AI and Machine Learning for The University of Arizona's DataLab
-          contents:
-            - Exploring the LLM Frontier
-            - AI Makerspace
-        - Co- lead the design and development of a university-wide private chatbot using open-source technologies. Responsible for RAG and LLM components, including dense passage retrieval indexing, prompt engineering, performance evaluation, LLM benchmarking, and API design.
-        - Co-Principal Investigator for Text Reading under DARPA’s ASKEM program. Led the development of a neuro-symbolic information extraction system for mathematical modeling from scientific literature. Coordinated a team of researchers to build a high-performance NLP system using Python and Scala. Project resulted in open-source software, one paper published at Findings of EMNLP 2024 and one manuscript under review.
-        - Developed an automated news aggregation dashboard for the AZHEALTHTXT project based on ReactJs-based application using PyTorch and HuggingFace transformers for filtering, classifying, summarizing, and translating news articles, aiding public health communication specialists.
-        - Designed and led the development of an LLM-powered chatbot for localized adverse weather and health-related resources under AZHEALTHTXT. Developed a functional RAG pipeline and user interface using Gradio, LangChain, and OpenAI API.
-    - title: Postdoctoral Research Associate
-      institution: Department of Computer Science, The University of Arizona
-      year: 2021-2022
-      description:
-        - Conducted biomedical NLP research under the Collaborative for Global Adaptive Pandemic Solutions initiative. Developed a visual analytics system for biomedical information extraction, published at the 16th IEEE Pacific Visualization Symposium.
-        - Co-authored five research publications and contributed to the REACH open-source project. Presented research at multiple conferences and collaborated on NSF and DARPA grant proposals and organized three research workshops and mentored graduate students in the Computer Science department.
-
-    - title: Sr. NLP Scientist
-      institution: CondaMetrix LLC, Boston, MA
-      year: 2020
-      description:
-        - Developed NLP algorithms for electronic health records, including anatomy phrase classifiers and laterality named-entity recognizers. Trained and fine-tuned LSTM, GRU, and BERT models. Developed APIs to integrate models into the company's software ecosystem.
-        - Mentored interns and contributed to internal training curricula on NLP and machine learning.
-
-    - title: Graduate Research and Teaching Associate
-      institution: Department of Computer Science, The University of Arizona
-      year: 2013-2019
-      description:
-        - Contributed to NLP and Machine Learning projects in the CLU lab and ML4AI, focusing on Information Extraction, Information Retrieval, and Reinforcement Learning, leading to multiple publications. Regular contributor to the REACH biomedical information extraction project.
-        - Served as Teaching Assistant for courses including Introduction to Machine Learning and Text Retrieval. Designed and graded assignments, implemented innovative grading methods, and provided support through substitute teaching, office hours, and exam proctoring.
-        - title: "Courses:"
-          contents:
-            - Computer Organization (2013)
-            - Data Structures (2014)
-            - Information Retrieval and Web Search (2015, 2016)
-            - Introduction to Machine Learning (2017, 2019)
-    - title: Sr. Software Engineer
-      institution: Fresh Software Concepts, Hermosillo, Sonora, Mexico
-      year: 2010-2012
-      description:
-        - Worked on the development of an ERP system and multiple ancillary products for the produce industry based on the .NET stack.
-        - Lead the migration of multiple enterprise information systems into Microsoft’s Azure cloud from their previous on-premises location. Designed and coordinated the migration of software assets and data, as well as worked on software adaptations to make the systems work properly on their new cloud-based home.
-        - Participated on the design and architecture of multiple information systems based on the .NET stack.
-    - title: Software Engineer
-      institution: Teknol, S.A. de C.V., Hermosillo, Sonora, Mexico
-      year: 2009-2010
-      description:
-        - Contributed to the development on GIS systems for multitouch hardware for the mining industry.
-        - Implemented multiple Web Services-based APIs for the company's products.
-    - title: Intern
-      institution: Internship at Centro de Investigación y Desarrollo de Ingeniería Avanzada, A.C., Hermosillo, Sonora, Mexico
-      year: 2008-2009
-      description:
-        - Participated in the development of a web-based cattle management information system based on Python and Django.
-    - title: Web Developer
-      institution: Optima Commerce, Hermosillo, Sonora, Mexico
-      year: 2007-2008
-      description:
-        - Contributed in the development of web-based international trade information system based on ASP.NET and C#.
-    - title: Jr. Software Engineer
-      institution: Marketing Movil S.A de C.V., Hermosillo, Sonora, Mexico
-      year: 2007
-      description:
-        - Contributed in the development of a Java-based service for sending and transmitting text messages (SMS) for a local marketing agency.
-
-- title: Grants and Funding
-  type: time_table
-  contents:
-    - title: "SKEMA: Scientific Knowledge Extraction and Model Analysis, DARPA."
-      year: 2022-2024
-      description: co-Principal Investigator responsible for the design and development of a neuro-symbolic information extraction system for mathematical modeling from scientific literature.
-    - title: Resilience Informatics for Public Health, Technology and Research Initiative Fund (TRIF), The University of Arizona.
-      year: 2023-2024
-      description: Key-personnel in charge of the design and development of a system for the automated aggregation, classification, summarization, and translation of news articles related to public health.
-
-- title: Patents
-  type: time_table
-  contents:
-    - title: <a href="https://patents.google.com/patent/US12019981B2/en">Method and system for converting literature into a directed graph</a>
-      year: 2024
-      description: US Patent No. 12019981, co-inventor.
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/clulab/reach">REACH</a>
-      year: 2014-now
-      description: "Reach stands for Reading and Assembling Contextual and Holistic Mechanisms from Text. In plain English, Reach is an information extraction system for the biomedical domain, which aims to read scientific literature and extract cancer signaling pathways. Reach implements a fairly complete extraction pipeline, including: recognition of biochemical entities (proteins, chemicals, etc.), grounding them to known knowledge bases such as Uniprot, extraction of BioPAX-like interactions, e.g., phosphorylation, complex assembly, positive/negative regulations, and coreference resolution, for both entities and interactions."
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2018
-      items:
-        - The University of Arizona Graduate & Professional Student’s Council Travel Grant
-        - UofA School of Information’s Travel Award
-        - International Conference in Data Mining's Student Award
-    - year: 2014
-      items:
-        - Galileo Circle Scholar, UofA’s College of Science
-    - year: 2013-2014
-      items:
-        - Instituto Educativo Sonora-Arizona's scholarship
-    - year: 2012-2014
-      items:
-        - CONACyT's graduate studies scholarship
-    - year: 2010
-      items:
-        - CENEVAL’s outstanding performance testimony on the EGEL test
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+cv:
+  name: "Enrique Noriega-Atala"
+  phone: "+15202415945"
+  email: "enrique.noriega@gmail.com"
+  website: "https://enoriega.info"
+  sections:
+    education:
+      - institution: "The University of Arizona"
+        area: "Information Science"
+        degree: "PhD"
+        end_date: "2020"
+        summary: "Minor: Statistics"
+      - institution: "The University of Arizona"
+        area: "Computer Science"
+        degree: "MS"
+        end_date: "2014"
+      - institution: "Monterrey Institute of Technology and Higher Education"
+        area: "Information Technologies"
+        degree: "BS"
+        end_date: "2010"
+    experience:
+      - company: "Northeastern University"
+        position: "Associate Research Scientist, Khoury College of Computer Sciences"
+        start_date: "2026-02"
+        end_date: "present"
+        summary: "Researcher in the Gyori Lab at Northeastern University, focusing on natural language processing and biomedical informatics with an emphasis on information extraction from scientific literature."
+        highlights:
+          - "Develop models and datasets for information extraction in the biomedical domain."
+          - "Mentor graduate students whose focus of research includes Natural Language Processing."
+          - "Engage and liaise on behalf of Gyori lab with external research groups from the lab's research projects."
+      - company: "The University of Arizona"
+        position: "Computational Sciences Researcher IV, Computer Science Department"
+        start_date: "2022-10"
+        end_date: "2026-01"
+        highlights:
+          - "Consult as NLP/LLM domain matter expert in research engagements between Computer Science and various academic departments."
+          - "Co-develop curriculum and teach workshops for graduate students, including Exploring the LLM Frontier and AI Makerspace."
+          - "Lead and collaborate on research projects about information retrieval, extraction, document modeling, program synthesis, etc."
+          - "Write and publish research work on top-tier, peer-reviewed venues."
+          - "Collaborate with planning and writing extramural research grants and other funding mechanisms."
+          - "Participate in the organization of academic workshops."
+          - "Mentor graduate students."
+      - company: "The University of Arizona"
+        position: "Postdoctoral Research Associate, Computer Science Department"
+        start_date: "2021-01"
+        end_date: "2022-09"
+        highlights:
+          - "Collaborated on the development of five research publications in top-tier peer-reviewed venues."
+          - "Led a collaborative effort to develop a multi-disciplinary visual analytics tool for the visualization of information extraction in the biomedical domain."
+          - "Contributed to open source NLP projects."
+          - "Presented research projects in multiple symposiums and conferences."
+          - "Collaborated on the development of two grant proposals for NSF and DARPA."
+          - "Collaborated and coordinated the organization of two research workshops, one institutional and the other co-hosted at COLING '22."
+          - "Mentored graduate students in the Department of Computer Science."
+      - company: "CodaMetrix"
+        position: "Senior NLP Scientist"
+        start_date: "2020-02"
+        end_date: "2020-10"
+        highlights:
+          - "Built a taxonomy of body regions, organs, and tissues using medical ontologies such as UMLS, SNOMED, and MeSH."
+          - "Bootstrapped a dataset using proprietary EHR corpora."
+          - "Implemented, trained, and tested state-of-the-art neural architectures with PyTorch and TensorFlow."
+          - "Developed APIs for integration with the company's product."
+          - "Participated as a mentor in the summer internship program and contributed to documentation and internal training curricula for NLP and machine learning."
+      - company: "The University of Arizona"
+        position: "Graduate Research Associate"
+        start_date: "2013-01"
+        end_date: "2020-01"
+        summary: "Worked within CLU lab and ML4AI on NLP and Machine Learning projects applied to health sciences, contributing regularly to REACH, a machine reading system for biomedical publications."
+      - company: "The University of Arizona"
+        position: "Teaching Assistant"
+        start_date: "2013-08"
+        end_date: "2019-12"
+        highlights:
+          - "Collaborated as a teaching assistant for graduate and undergraduate courses in Computer Science and the School of Information."
+          - "Graded assignments, exams, and projects, held office hours, designed assignments, and directed laboratory sessions and guest lectures."
+          - "Courses served: Computer Organization (2013), Data Structures (2014), Information Retrieval and Web Search (2015, 2016), Introduction to Machine Learning (2017, 2019)."
+    honors_and_awards:
+      - name: "UA Graduate & Professional Student's Council Travel Grant"
+        date: "2018"
+      - name: "UA School of Information's Travel Award"
+        date: "2018"
+      - name: "International Conference in Data Mining Student Award"
+        date: "2018"
+      - name: "Galileo Circle Scholar, UA's College of Science"
+        date: "2014"
+      - name: "Instituto Educativo Sonora-Arizona Scholarship"
+        start_date: "2013"
+        end_date: "2014"
+      - name: "CONACyT Graduate Studies Scholarship"
+        start_date: "2012"
+        end_date: "2014"
+      - name: "CENEVAL's Outstanding Performance Testimony on the EGEL Test"
+        date: "2010"
+    journal_publications:
+      - title: "Extracting Inter-sentence Relations for Associating Biological Context with Events in Biomedical Text"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Paul D. Hein"
+          - "Shraddha S. Thumsi"
+          - "Zechy Wong"
+          - "Xia Wang"
+          - "Sean M. Hendryx"
+          - "Clayton T. Morrison"
+        journal: "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        date: "2019"
+      - title: "Large-scale Automated Machine Reading Discovers New Cancer Driving Mechanisms"
+        authors:
+          - "Marco A. Valenzuela-Escárcega"
+          - "Özgün Babur"
+          - "Gus Hahn-Powell"
+          - "Dane Bell"
+          - "Thomas Hicks"
+          - "*Enrique Noriega-Atala*"
+          - "Xia Wang"
+          - "Mihai Surdeanu"
+          - "Emek Demir"
+          - "Clayton T. Morrison"
+        journal: "Database: The Journal of Biological Databases and Curation"
+        date: "2018"
+    conference_publications:
+      - title: "When and Where Did it Happen? An Encoder-Decoder Model to Identify Scenario Context"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Robert Vacareanu"
+          - "Salena Torres Ashton"
+          - "Adarsh Pyarelal"
+          - "Clayton T. Morrison"
+          - "Mihai Surdeanu"
+        journal: "Findings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+        date: "2024"
+      - title: "Active learning design choices for NER with transformers"
+        authors:
+          - "Robert Vacareanu"
+          - "*Enrique Noriega-Atala*"
+          - "Gus Hahn-Powell"
+          - "Marco A. Valenzuela-Escárcega"
+          - "Mihai Surdeanu"
+        journal: "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING)"
+        date: "2024"
+      - title: "Visualizing Interaction Networks and Evidence in Biomedical Corpora"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Md Rahat-Uz-Zaman"
+          - "Ruchika Bhat"
+          - "Mladen Jergović"
+          - "Stephen G. Kobourov"
+          - "Janko Nikolich-Žugich"
+        journal: "Proceedings of the 16th IEEE Pacific Visualization Symposium (PacificVis)"
+        date: "2023"
+      - title: "A Human-machine Interface for Few-shot Rule Synthesis for Information Extraction"
+        authors:
+          - "Robert Vacareanu"
+          - "George C. Barbosa"
+          - "*Enrique Noriega-Atala*"
+          - "Gus Hahn-Powell"
+          - "Rebecca Sharp"
+          - "Marco A. Valenzuela-Escárcega"
+          - "Mihai Surdeanu"
+        journal: "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)"
+        date: "2022"
+      - title: "Learning what to read: Focused machine reading"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Marco A. Valenzuela-Escárcega"
+          - "Clayton T. Morrison"
+          - "Mihai Surdeanu"
+        journal: "Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+        date: "2017"
+    workshop_publications:
+      - title: "Variable Extraction for Model Recovery in Scientific Literature"
+        authors:
+          - "Chunwei Liu"
+          - "*Enrique Noriega-Atala*"
+          - "Adarsh Pyarelal"
+          - "Clayton T. Morrison"
+          - "Mike Cafarella"
+        journal: "Proceedings of the 1st Workshop on AI and Scientific Discovery: Directions and Opportunities (ACL)"
+        date: "2025"
+      - title: "Neural-Guided Program Synthesis of Information Extraction Rules Using Self-Supervision"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Robert Vacareanu"
+          - "Gus Hahn-Powell"
+          - "Marco A. Valenzuela-Escárcega"
+        journal: "Proceedings of the Workshop on Pattern-based Approaches to NLP in the Age of Deep Learning at COLING"
+        date: "2022"
+      - title: "Learning Open Domain Multi-hop Search Using Reinforcement Learning"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Mihai Surdeanu"
+          - "Clayton T. Morrison"
+        journal: "Proceedings of the Workshop on Structured and Unstructured Knowledge Integration (ACL)"
+        date: "2022"
+      - title: "Low Resource Causal Event Detection from Biomedical Literature"
+        authors:
+          - "Zhengzhong Liang"
+          - "*Enrique Noriega-Atala*"
+          - "Clayton Morrison"
+          - "Mihai Surdeanu"
+        journal: "Proceedings of the 21st Workshop on Biomedical Language Processing at ACL"
+        date: "2022"
+      - title: "Neural Architectures for Biological Inter-Sentence Relation Extraction"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Peter M. Lovett"
+          - "Clayton T. Morrison"
+          - "Mihai Surdeanu"
+        journal: "Proceedings of Scientific Document Understanding at AAAI"
+        date: "2022"
+      - title: "Understanding the Polarity of Events in the Biomedical Literature: Deep Learning vs. Linguistically-informed Methods"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Zhengzhong Liang"
+          - "John A. Bachman"
+          - "Clayton T. Morrison"
+          - "Mihai Surdeanu"
+        journal: "Proceedings of the Workshop on Extracting Structured Knowledge from Scientific Publications at NAACL-HLT"
+        date: "2019"
+      - title: "Inter-sentence Relation Extraction for Associating Biological Context with Events in Biomedical Texts"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Paul D. Hein"
+          - "Shraddha S. Thumsi"
+          - "Zechy Wong"
+          - "Xia Wang"
+          - "Clayton T. Morrison"
+        journal: "Proceedings of the Sixth Workshop on Data Mining in Biomedical Informatics and Healthcare at ICDM"
+        date: "2018"
+      - title: "Focused Reading: Reinforcement Learning for What Documents to Read"
+        authors:
+          - "*Enrique Noriega-Atala*"
+          - "Marco A. Valenzuela-Escárcega"
+          - "Clayton T. Morrison"
+          - "Mihai Surdeanu"
+        journal: "Proceedings of the Interactive Machine Learning and Semantic Information Retrieval Workshop at ICML"
+        date: "2017"
+      - title: "Large-scale Automated Reading with Reach Discovers New Cancer Driving Mechanisms"
+        authors:
+          - "Marco A. Valenzuela-Escárcega"
+          - "Özgün Babur"
+          - "Gus Hahn-Powell"
+          - "Dane Bell"
+          - "Thomas Hicks"
+          - "*Enrique Noriega-Atala*"
+          - "Xia Wang"
+          - "Mihai Surdeanu"
+          - "Emek Demir"
+          - "Clayton T. Morrison"
+        journal: "Proceedings of the BioCreative VI Workshop (BioCreative6 2017)"
+        date: "2017"
+    conference_presentations:
+      - name: "When and Where Did it Happen? An Encoder-Decoder Model to Identify Scenario Context"
+        date: "2024"
+        location: "Miami, Florida"
+        summary: "Workshop on the Future of Event Detection at EMNLP 2024"
+      - name: "Visualizing Interaction Networks and Evidence in Biomedical Corpora"
+        date: "2023"
+        location: "Seoul, South Korea"
+        summary: "The 16th IEEE Pacific Visualization Symposium (PacificVis)"
+      - name: "Neural-Guided Program Synthesis of Information Extraction Rules Using Self-Supervision"
+        date: "2022"
+        location: "Gyeongju, Republic of Korea"
+        summary: "Workshop on Pattern-based Approaches to NLP in the Age of Deep Learning at COLING"
+      - name: "Open Domain Multi-hop Search Using Reinforcement Learning"
+        date: "2022"
+        location: "Seattle, Washington"
+        summary: "Workshop on Structured and Unstructured Knowledge Integration at NAACL-HLT"
+      - name: "Low Resource Causal Event Detection from Biomedical Literature"
+        date: "2022"
+        location: "Dublin, Ireland"
+        summary: "21st Workshop on Biomedical Language Processing at ACL"
+      - name: "Neural Architectures for Biological Inter-Sentence Relation Extraction"
+        date: "2022"
+        location: "Vancouver, Canada"
+        summary: "Scientific Document Understanding at AAAI"
+      - name: "Understanding the Polarity of Events in the Biomedical Literature: Deep Learning vs. Linguistically-informed Methods"
+        date: "2019"
+        location: "Minneapolis, Minnesota"
+        summary: "Workshop on Extracting Structured Knowledge from Scientific Publications at NAACL-HLT"
+      - name: "Inter-sentence Relation Extraction for Associating Biological Context with Events in Biomedical Text"
+        date: "2018"
+        location: "Singapore"
+        summary: "Sixth Workshop on Data Mining in Biomedical Informatics and Healthcare at ICDM"
+      - name: "Grounding Gradable Adjectives through Crowd-sourcing"
+        date: "2018"
+        location: "Miyazaki, Japan"
+        summary: "Language Resources and Evaluation Conference"
+      - name: "Learning what to read: Focused machine reading"
+        date: "2017"
+        location: "Copenhagen, Denmark"
+        summary: "NLP Applications track, EMNLP"
+    other_presentations:
+      - name: "AZX Chat Bot: An LLM-driven Application Implementation to Support Resilience Against Climate Change"
+        date: "2023-11"
+        location: "The University of Arizona"
+        summary: "Resilience Informatics Workshop"
+      - name: "Visualizing Interaction Networks and Evidence in Biomedical Corpora"
+        date: "2023-11"
+        location: "The University of Arizona"
+        summary: "Immune Monitoring Symposium"
+      - name: "Machine Learning and NLP for Medical Research and Public Health"
+        date: "2023-05"
+        location: "The University of Arizona"
+        summary: "PHIRE Side Chat"
+      - name: "Accelerating Research through Large Scale, Interpretable Machine Reading"
+        date: "2022-10"
+        location: "The University of Arizona"
+        summary: "MCB Joint Seminar"
+      - name: "Accelerating Research through Large Scale, Interpretable Machine Reading"
+        date: "2022-09"
+        location: "The University of Arizona"
+        summary: "Applied Data Science Speak & Greet Speaker Series"
+      - name: "What is Machine Learning?"
+        date: "2015"
+        location: "Hermosillo, Mexico"
+        summary: "Guest lecture for Knowledge-based Systems in Organizations, Systems and Industrial Engineering Program at Monterrey Institute of Technology and Higher Education"
+    service:
+      - name: "Organization Committee Member"
+        highlights:
+          - "The Second Workshop in Pattern-based Approaches to NLP in the Age of Deep Learning (Pan-DL), EMNLP (2023)"
+          - "Pattern-based Approaches to NLP in the Age of Deep Learning (Pan-DL), COLING (2022)"
+      - name: "Program Committee Member"
+        highlights:
+          - "The AAAI-22 Workshop on Scientific Document Understanding, AAAI (2022)"
+          - "SUKI: Structured and Unstructured Knowledge Integration, NAACL-HLT (2022)"
+          - "TextGraphs: Graph-based Algorithms for Natural Language Processing (14, 15, and 16)"
+      - name: "Student Volunteer"
+        date: "2019"
+        location: "Minneapolis, Minnesota"
+        summary: "NAACL-HLT"
+    grants:
+      - name: "SKEMA: Scientific Knowledge Extraction and Model Analysis"
+        start_date: "2022-07"
+        end_date: "2025-12"
+        summary: "Co-PI, DARPA (Award amount: $9,345,747)"
+      - name: "Resilience Informatics for Public Health"
+        start_date: "2023-07"
+        end_date: "2024-06"
+        summary: "Key Personnel, Technology and Research Initiative Fund (TRIF), The University of Arizona (Award amount: $95,000)"
+    patents:
+      - name: "Method for Extracting and Assessing Signaling Pathways from Biomedical Literature"
+        date: "2017-03"
+        summary: "Provisional US patent filed. Authors: Mihai Surdeanu, Marco A. Valenzuela-Escarcega, Gustave Hahn-Powell, Dane Bell, Thomas Hicks, Enrique Noriega, Clayton Morrison"
