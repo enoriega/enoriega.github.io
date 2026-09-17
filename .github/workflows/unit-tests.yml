@@ -14,6 +14,8 @@ on:
       - "_pages/**"
       - "_posts/**"
       - "_projects/**"
+      - "_layouts/**"
+      - ".al-folio-overrides.yml"
       - "assets/**"
       - "test/**"
       - "package.json"
@@ -32,6 +34,8 @@ on:
       - "_pages/**"
       - "_posts/**"
       - "_projects/**"
+      - "_layouts/**"
+      - ".al-folio-overrides.yml"
       - "assets/**"
       - "test/**"
       - "package.json"
@@ -67,7 +71,12 @@ jobs:
         run: npm ci
 
       - name: Run style contract lint 🧷
+        # Personal sites may shadow gem templates; this contract is for the starter.
+        if: github.repository == 'alshedivat/al-folio'
         run: npm run lint:style-contract
+
+      - name: Audit local template overrides 🧷
+        run: bundle exec al-folio upgrade overrides audit
 
       - name: Install build prerequisites 🔧
         run: |

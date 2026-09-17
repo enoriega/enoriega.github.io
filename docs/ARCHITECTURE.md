@@ -132,7 +132,7 @@ bundle exec al-folio upgrade overrides accept <path>
 
 **In this starter repo** (`alshedivat/al-folio` itself): those directories must not exist. `npm run lint:style-contract` fails the build if the starter contains `_includes/`, `_layouts/`, `_sass/`, `_scripts/`, `assets/tailwind/`, `tailwind.config.js`, `assets/webfonts/`, or icon-font artifacts. This is the automated enforcement of the thin-starter boundary and applies to contributions to al-folio, **not** to user sites.
 
-> **Note for maintainers:** `test/style_contract.js` and `unit-tests.yml` ship to every site created from this template, so a user who adds a perfectly legal local override will see the starter's own contract check fail in their fork. Whether to re-scope that check to the upstream repo only is an open maintainer decision; it is deliberately unchanged here.
+> **Site CI:** In this personal site, `unit-tests.yml` runs the starter style contract only for `alshedivat/al-folio`. All repositories still run the integration tests and `al-folio upgrade overrides audit`, so supported site overrides are tracked without applying the starter's ownership restriction to user sites.
 
 ## Bootstrap compatibility is opt-in and time-boxed
 
