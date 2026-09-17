@@ -1,0 +1,61 @@
+/*******************************************************************************
+ * Site palette and typography override: Paper & Teal
+ ******************************************************************************/
+
+@use "sass:color";
+
+// Core palette
+$red-color: #b34c3b !default;
+$red-color-dark: #8f392d !default;
+$orange-color: #c7792f !default;
+$blue-color: #176b74 !default;
+$blue-color-dark: #0f5057 !default;
+$cyan-color: #5dd0c4 !default;
+$light-cyan-color: color.adjust($cyan-color, $lightness: 20%) !default;
+$green-color: #3c8d79 !default;
+$green-color-lime: #a9c87e !default;
+$green-color-dark: #2d6f61 !default;
+$green-color-light: #dcefe8 !default;
+$green-color-bright: #63cbb9 !default;
+$purple-color: #0f766e !default;
+$light-purple-color: color.adjust($purple-color, $lightness: 20%) !default;
+$pink-color: #b45e73 !default;
+$pink-color-light: #f7e1e5 !default;
+$yellow-color: #c89a28 !default;
+
+$grey-color: #756c64 !default;
+$grey-color-light: #f1ede5 !default;
+$grey-color-dark: #1d1a17 !default;
+$grey-900: #2a2520 !default;
+
+$white-color: #faf7f1 !default;
+$black-color: #2f2925 !default;
+
+// Theme colors
+$code-bg-color-light: rgba($purple-color, 0.06) !default;
+$code-bg-color-dark: #282320 !default;
+
+// Font Awesome location
+$fa-font-path: "../webfonts" !default;
+
+// Back To Top button config
+$back-to-top-z-index: 10 !default;
+$back-to-top-bottom: 30px !default;
+$back-to-top-right: 30px !default;
+$back-to-top-diameter: 40px !default;
+$back-to-top-height: $back-to-top-diameter !default;
+$back-to-top-width: $back-to-top-diameter !default;
+
+// Max width default
+$max-content-width: 930px !default;
+
+// DM Serif Display gives titles an editorial character without compromising body-copy readability.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", Georgia, serif;
+  font-weight: 400;
+}

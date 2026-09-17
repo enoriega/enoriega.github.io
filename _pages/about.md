@@ -15,6 +15,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<style>
+  article > .social .contact-icons {
+    font-size: 2.25rem;
+  }
+</style>
+
 I am an Associate Research Scientist at [Northeastern University](https://www.khoury.northeastern.edu/), where I work with the [Gyori Lab for Computational Biomedicine](https://gyorilab.github.io/). I build natural-language systems that turn complex scientific and biomedical literature into structured, usable knowledge.
 
 My work sits at the intersection of **NLP, large language models, information retrieval, information extraction, and knowledge grounding**. I enjoy taking research ideas from problem formulation through model and dataset development to tools that help domain experts search, interpret, and act on evidence at scale.
