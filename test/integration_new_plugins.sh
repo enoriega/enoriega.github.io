@@ -28,7 +28,10 @@ fail() {
 
 # --- al_rtl -----------------------------------------------------------------
 
-default_site="$(build default)"
+# Keep the disabled-email case independent of a personal site's defaults.
+unprotected_override="${tmp_dir}/unprotected-email.yml"
+printf 'protect_email: false\n' >"${unprotected_override}"
+default_site="$(build default --config "_config.yml,${unprotected_override}")"
 
 rtl_page="${default_site}/blog/2022/rtl/index.html"
 [ -f "${rtl_page}" ] || fail "RTL demo post was not built"
@@ -69,9 +72,7 @@ grep -q 'al_marimo' "${default_site}/index.html" && fail "home page wrongly load
 
 # --- al_email_protect -------------------------------------------------------
 
-# Off by default, so this builds with an override rather than changing the
-# shipped config: turning it on for the demo site would flip the default for
-# everyone who copies this template.
+# Enable explicitly, so both states are tested regardless of site defaults.
 override="${tmp_dir}/protect-email.yml"
 printf 'protect_email: true\n' >"${override}"
 protected_site="$(build protected --config "_config.yml,${override}")"
@@ -92,7 +93,7 @@ grep -q 'assets/al_email_protect/css/email-protect.css' "${protected_site}/index
 [ -f "${protected_site}/assets/al_email_protect/css/email-protect.css" ] \
   || fail "email-protect stylesheet referenced but not published"
 
-# ...and with it off (the default), the plugin costs nothing.
+# ...and with it explicitly off, the plugin costs nothing.
 grep -q 'al_email_protect' "${default_site}/index.html" \
   && fail "email-protect assets loaded while disabled"
 
