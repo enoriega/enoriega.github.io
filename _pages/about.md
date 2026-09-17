@@ -16,6 +16,13 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <style>
+  @media (max-width: 575.98px) {
+    article > .profile {
+      width: min(48vw, 11rem);
+      margin-bottom: 1rem;
+    }
+  }
+
   article > .social .contact-icons {
     font-size: 2.25rem;
   }
